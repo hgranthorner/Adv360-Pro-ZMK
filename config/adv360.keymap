@@ -79,11 +79,11 @@
 
         layer_MAC {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &kp LCMD  &trans  &kp LCTRL  &trans  &trans  &trans  &trans  &trans  &trans  &tog 4
+ &trans  &trans  &trans  &trans  &trans  &trans              &trans        &trans     &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans              &trans        &trans     &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans              &trans  &kp LEFT_ALT  &kp LCTRL                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans              &trans        &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &kp LCMD        &trans  &kp LCTRL  &trans  &trans  &trans  &trans  &trans  &trans  &tog 4
             >;
         };
 
